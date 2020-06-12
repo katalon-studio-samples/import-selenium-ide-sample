@@ -1,0 +1,198 @@
+{
+  "id": "52e07090-333f-43ed-b8d2-feab0eba6ef0",
+  "version": "2.0",
+  "name": "demo-aut",
+  "url": "http://demoaut.katalon.com/",
+  "tests": [{
+    "id": "853a892f-4216-494b-9d34-677fc7a3bdcf",
+    "name": "login",
+    "commands": [{
+      "id": "c33a59d8-aa59-48ca-9431-f54e2db2a83c",
+      "comment": "",
+      "command": "open",
+      "target": "https://katalon-demo-cura.herokuapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bb82380-d8ec-4e21-974f-f858538c5e5f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x803",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad4a2380-79e1-4b6f-a237-f76b739df3dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-make-appointment",
+      "targets": [
+        ["id=btn-make-appointment", "id"],
+        ["linkText=Make Appointment", "linkText"],
+        ["css=#btn-make-appointment", "css:finder"],
+        ["xpath=//a[contains(text(),'Make Appointment')]", "xpath:link"],
+        ["xpath=//a[@id='btn-make-appointment']", "xpath:attributes"],
+        ["xpath=//header[@id='top']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './profile.php#login')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Make Appointment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "045402c5-b95a-44ae-90e0-8f631d3f1cc8",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt-username",
+      "targets": [
+        ["id=txt-username", "id"],
+        ["name=username", "name"],
+        ["css=#txt-username", "css:finder"],
+        ["xpath=//input[@id='txt-username']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9237315d-c09e-40ef-8f96-480985501eb4",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-username",
+      "targets": [
+        ["id=txt-username", "id"],
+        ["name=username", "name"],
+        ["css=#txt-username", "css:finder"],
+        ["xpath=//input[@id='txt-username']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "John Doe"
+    }, {
+      "id": "faf1af58-2bdf-4df6-83fe-420538cfffcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt-password",
+      "targets": [
+        ["id=txt-password", "id"],
+        ["name=password", "name"],
+        ["css=#txt-password", "css:finder"],
+        ["xpath=//input[@id='txt-password']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b0ea242-e0e4-4cb3-9096-d12e016cf782",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-offset-4 .form-control",
+      "targets": [
+        ["css=.col-sm-offset-4 .form-control", "css:finder"],
+        ["xpath=//input[@value='ThisIsNotAPassword']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "126f4356-7106-45cb-b0be-193f590c9b97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-offset-4 .form-control",
+      "targets": [
+        ["css=.col-sm-offset-4 .form-control", "css:finder"],
+        ["xpath=//input[@value='ThisIsNotAPassword']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b350666-3a0e-411f-bfaa-95634476926d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.col-sm-offset-4 .form-control",
+      "targets": [
+        ["css=.col-sm-offset-4 .form-control", "css:finder"],
+        ["xpath=//input[@value='ThisIsNotAPassword']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea388eb-d1cc-428c-886f-5616f857922f",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt-password",
+      "targets": [
+        ["id=txt-password", "id"],
+        ["name=password", "name"],
+        ["css=#txt-password", "css:finder"],
+        ["xpath=//input[@id='txt-password']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e0aba69-5d9c-4c39-96f1-d5d8c3d945c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-password",
+      "targets": [
+        ["id=txt-password", "id"],
+        ["name=password", "name"],
+        ["css=#txt-password", "css:finder"],
+        ["xpath=//input[@id='txt-password']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ThisIsNotAPassword"
+    }, {
+      "id": "596e839a-595c-4b91-ad34-540e90137989",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-horizontal",
+      "targets": [
+        ["css=.form-horizontal", "css:finder"],
+        ["xpath=//form[@action='https://katalon-demo-cura.herokuapp.com/authenticate.php']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9410b937-4d98-4882-8ad7-47f439caf24b",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//button[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f9cc2066-308c-469c-bfc1-c26b37a7f3f7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["853a892f-4216-494b-9d34-677fc7a3bdcf"]
+  }, {
+    "id": "0edd6b93-dd40-4808-b494-0da780cda9ea",
+    "name": "Suite 1",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "d4c21ec0-ad70-46d3-a9c3-7717d00dc0c6",
+    "name": "Suite 2",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}
